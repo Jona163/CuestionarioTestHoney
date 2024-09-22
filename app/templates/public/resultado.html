@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la Encuesta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Resultados de la Encuesta</h1>
+    <div class="respuestas">
+        <h2>Respuestas del Usuario:</h2>
+        <ul>
+            {% for pregunta_id, respuesta in respuestas.items() %}
+                <li>{{ pregunta_id }}: {{ respuesta }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
