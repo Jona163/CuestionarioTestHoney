@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PASO 1, Crear mi entorno virtual
 #  virtualenv -p python3 env o python3 -m venv nombreEntornoVirtual (env)
 
@@ -22,3 +23,7 @@
 # en el mismo se encuentran todas las dependecias del proyecto.
  
 
+=======
+# CuestionarioTestHoney
+CuestionarioTestHoney , version beta.
+>>>>>>> 1de66d60d27417996798bf1f576d6e5c91cba28a
